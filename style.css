@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh; 
+    background-color: brown; 
+   
+}
+ 
+*{
+    box-sizing: border-box;
+}
+
+
+
+
+.card{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(193, 193, 193);
+    border-radius: 10px;
+    margin: 20px;
+ }  
+.content{
+    display: flex;
+    height: 100vh;
+    /* x - o'qi bo'yicha */
+    /* justify-content: center; - o'rtasiga qo'yadi; */
+justify-content: flex-end;  
+    /* 
+    justify-content: flex-start; - boshiga qo'yadi; */
+    /* justify-content: space-between; - contentlarni ekranni ikala tarafiga sochib yuboradi */
+    /* justify-content: space-around; - contentlarni orasidagi masofanin teng bo'ladi */
+
+
+    /* y - o'qi bo'yicha */
+
+    /* align-items: ___ ; - y o'qi bo'yicha contentlarni boshqaradi */
+
+    align-items:   center;
+
+}
